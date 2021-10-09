@@ -1,0 +1,115 @@
+<%- include('partials/head_link') %> <%- include('partials/nav') %> <%-
+include('partials/header') %>
+
+<section class="pcoded-main-container">
+  <div class="pcoded-wrapper">
+    <div class="pcoded-content">
+      <div class="pcoded-inner-content">
+        <div class="main-body">
+          <div class="page-wrapper">
+            <div class="page-header">
+              <div class="page-block">
+                <div class="row align-items-center">
+                  <div class="col-md-12">
+                    <div class="page-header-title">
+                      <h5 class="m-b-10">Form Select</h5>
+                    </div>
+                    <ul class="breadcrumb">
+                      <li class="breadcrumb-item">
+                        <a href="index.html"
+                          ><i class="feather icon-home"></i
+                        ></a>
+                      </li>
+                      <li class="breadcrumb-item">
+                        <a href="#!">Form Components</a>
+                      </li>
+                      <li class="breadcrumb-item">
+                        <a href="#!">Form Select</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="card">
+                  <div class="card-header">
+                    <h5>Ajouter un Article</h5>
+                  </div>
+                  <div class="card-body">
+                    <form id="validation-form123" action="" method="post">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label class="form-label">Title</label>
+                            <input
+                              type="text"
+                              class="form-control"
+                              name="validation-email"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label class="form-label">Short description</label>
+                            <input
+                              type="text"
+                              class="form-control"
+                              name="validation-password"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label class="form-label">Catégorie</label>
+                            <select
+                              class="js-example-basic-single form-control"
+                            >
+                              <option value="AL">Fashion</option>
+                              <option value="WY">Technologies</option>
+                              <option value="WY">Marketing</option>
+                              <option value="WY">Education</option>
+                              <option value="WY">Juridique</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label class="form-label">Description</label>
+                            <textarea
+                              class="form-control"
+                              name="validation-text"
+                            ></textarea>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label class="form-label">Image</label>
+                            <div>
+                              <input
+                                type="file"
+                                class="validation-file"
+                                name="validation-file"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button type="submit" class="btn btn-success">
+                        Save
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<%- include('partials/footer') %>
